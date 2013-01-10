@@ -77,6 +77,11 @@ var MyLayer = cc.Layer.extend({
 
         lazyLayer.addChild(this.sprite, 0);
 
+        //Personagem:
+        var hero = new BaseCharacter("res/hero.png");
+        hero.setPosition(cc.p(120, 120) );
+        this.addChild(hero, 1);
+
         return true;
     }
 

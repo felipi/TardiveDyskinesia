@@ -37,6 +37,7 @@
         //SingleEngineFile:'',
         appFiles:[
             'src/resource.js',
+            'src/baseCharacter.js',
             'src/myApp.js'//add your own files in order here
         ]
     };
